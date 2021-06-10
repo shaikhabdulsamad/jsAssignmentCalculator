@@ -1,0 +1,40 @@
+body{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.calc{
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    background-color: grey;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 5px;
+}
+
+.calc button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+input{
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  height: 70px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 30px;
+  padding: 0 10px;
+  background-color: rgb(216, 216, 216);
+  border-radius:  5px 5px 0 0;
+  text-align: right;
+  border: 5px solid;
+  
+}
