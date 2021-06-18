@@ -4,7 +4,7 @@ function val(num) {
 
     var lastVal = input.value.slice(input.value.length - 1);
 
-    var opr = ["+", "-", "*", "/"];
+    var opr = ["+", "-", "*", "/", "."];
 
     if (opr.indexOf(lastVal) !== -1 && opr.indexOf(num) !== -1) {
         input.value = input.value.slice(0, input.value.length - 1) + num
